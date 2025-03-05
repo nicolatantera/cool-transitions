@@ -1,0 +1,23 @@
+@use "@/styles/vars";
+
+.nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.logo, .nav-item {
+  margin: 2em;
+  font-weight: 400;
+  font-size: 1.8vw;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
