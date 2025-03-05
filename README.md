@@ -7,4 +7,4 @@ This is a **Simple Web Page** about cool transitions between pages built using *
 ## View the Project  
 
 You can view the live project by clicking on the following link:  
-[Cool Animations](https://nicolatantera.github.io/cool-transitions/)
+[Cool Transitions](https://nicolatantera.github.io/cool-transitions/)
