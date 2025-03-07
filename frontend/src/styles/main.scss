@@ -24,11 +24,16 @@ body, #root {
   flex-direction: column;
 }
 
-h1 {
+
+.h1-container {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  //overflow: hidden;
+}
+
+h1 {
   font-weight: 500;
   font-size: 10vw;
   line-height: 1;
@@ -54,3 +59,4 @@ h1 {
   background: vars.$color;
   transform-origin: top;
 }
+

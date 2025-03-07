@@ -5,7 +5,7 @@ export default function Layout() {
   const location = useLocation();
 
   return (
-    <AnimatePresence mode="wait">
+    <AnimatePresence mode="wait" initial={false}>
       <Outlet key={location.pathname} />
     </AnimatePresence>
   );
